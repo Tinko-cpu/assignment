@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body {
+    width: 1500px;
+    margin: 8rem auto;
+}
+
+
+
+/* SECTION 1 STYLES  */
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+header{
+    background-color: rgb(2, 2, 37);
+    height:80px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 15px;
+}
+
+.main-container{
+    display: flex;
+    height: 450px;
+}
+
+article{
+    background-color: #fff;
+    flex-grow: 2;
+    color:rgb(2, 2, 37);
+    font-size: 30px;
+    padding: 15px;
+    font-weight: 700;
+}
+aside{
+   background-color: blue; 
+   width: 200px;
+   color: #fff;
+   font-size: 30px;
+   padding: 15px;
+   font-weight: 700;
+}
+nav{
+    background-color: rgb(226, 43, 119);
+    width: 200px;
+    color: #fff;
+    font-size: 30px;
+    padding: 15px;
+    font-weight: 700;
+}
+
+footer{
+    background-color: rgb(2, 2, 37);
+    height: 80px;
+    color: #fff;
+    font-weight: 700;
+    padding: 15px;
+    font-size: 30px;
+    
+}
+
+/* SECTION 2 STYLES  */
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    min-height:400px;
+}
+
+.head2{
+
+}
+
+.main-container2{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.art-2{
+    order: 2;
+}
+
+.nav-2{
+    align-self: stretch;
+    order: 3;
+    align-items: stretch;
+    flex-grow: 3;
+    height: 100%;
+}
+
+.aside-2{
+    order: 1;
+}
+
+.foot-2{
+    width: 80%;
+    
+}
+
+/* SECTION 3 */
+
+.container{
+ max-width: 800px;
+ min-height: 60vh;
+ background-color: aqua;
+ padding: 20px;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+}
+
+.main{
+   display: flex; 
+   flex-direction: column;
+   justify-content: space-between;
+   width: 100px;
+   align-items: stretch
+}
+
+.head-3{
+    background-color: rgb(2, 2, 37);
+    color: #fff;
+    padding: 25px;
+
+
+}
+
+.article-3{
+    background-color: #fff;
+    color: #fff;
+   flex: 1;
+}
+
+.aside-3{
+    background-color: blue;
+    color: #fff;
+    
+}
+.nav-3{
+    background-color: rgb(226, 43, 119);
+    color: #fff;
+   flex-direction: column;
+   
+}
+.foot-3{
+    background-color: rgb(2, 2, 37);
+    color: #fff;
+   
+}
